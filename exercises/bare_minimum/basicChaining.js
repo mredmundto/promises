@@ -15,6 +15,9 @@ var Promise = require('bluebird');
 
 var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
   // TODO
+
+  // using pluckFirstLine promise in promise Constructor 
+  // using getGitHubProfileAsync
 };
 
 // Export these functions so we can test them
